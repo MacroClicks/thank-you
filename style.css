@@ -54,6 +54,11 @@ body {
             box-shadow: 0px 4px 8px;
             text-align: center;
             font-family: 'Open Sans', sans-serif;
+            display: flex;  /* Make the highlight box a flex container */
+            flex-direction: column;  /* Arrange items vertically */
+            align-items: center;  /* Center items horizontally within the column
+
+            
           
             /* Default dimensions for smaller screens */
             width: 80%;  /* Adjust as needed */
@@ -94,7 +99,7 @@ body {
             height: auto;  /* Maintain aspect ratio */
             margin-right: 10px;
             margin-bottom: 10px;
-            align-items: center;
+            margin: 0 auto;  /* Center the icon horizontally */
           }
 
           /**
