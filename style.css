@@ -14,9 +14,6 @@ body {
     background-size: cover;
   }
 
-  .blur-background {
-    transition: background-image 1s ease-in-out;
-  }
 
     /* Blurred Background */
 
