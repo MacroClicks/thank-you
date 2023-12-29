@@ -11,22 +11,22 @@ function fire(particleRatio, opts) {
   );
 }
 
-fire(0.25, {
+fire(0.50, {
   spread: 26,
   startVelocity: 55,
 });
 
-fire(0.2, {
+fire(0.3, {
   spread: 60,
 });
 
-fire(0.35, {
+fire(1, {
   spread: 100,
   decay: 0.91,
   scalar: 0.8,
 });
 
-fire(0.1, {
+fire(0.2, {
   spread: 120,
   startVelocity: 25,
   decay: 0.92,
@@ -58,6 +58,7 @@ window.addEventListener('resize', function() {
 
   backgroundElement.style.backgroundImage = `url(${imagePath})`;
 });
+
 
 
 
