@@ -38,4 +38,26 @@ fire(0.1, {
   startVelocity: 45,
 });
 
+window.addEventListener('resize', function() {
+  const backgroundElement = document.querySelector('.blur-background');
+  const width = window.innerWidth;
+
+  let imagePath;
+
+  if (width >= 1250) {
+    imagePath = 'pic5.JPG';
+  } else if (width >= 1024) {
+    imagePath = 'pic4.JPG';
+  } else if (width >= 768) {
+    imagePath = 'pic3.JPG';
+  } else if (width >= 580) {
+    imagePath = 'pic2.JPG';
+  } else {
+    imagePath = 'pic1.JPG';
+  }
+
+  backgroundElement.style.backgroundImage = `url(${imagePath})`;
+});
+
+
 
