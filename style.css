@@ -9,6 +9,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     background-size: cover;
 
     
@@ -19,23 +21,23 @@ body {
 
     @media (min-width: 450px) {
         .blur-background {
-          background-image: url("1.jpg");}
+          background-image: url("1.JPG");}
         }
       @media (min-width: 580px) { 
         .blur-background {
-          background-image: url("2.jpg");}
+          background-image: url("2.JPG");}
         }
       @media (min-width: 768px) { 
         .blur-background {
-          background-image: url("3.jpg");}
+          background-image: url("3.JPG");}
         }
       @media (min-width: 1024px) { 
         .blur-background {
-          background-image: url("4.jpg");}
+          background-image: url("4.JPG");}
         }
       @media (min-width: 1250px) { 
         .blur-background {
-          background-image: url("5.jpg");}
+          background-image: url("5.JPG");}
         }
   
         .highlight-box {
