@@ -13,24 +13,7 @@ body {
     -webkit-filter: blur(5px);
     background-size: cover;
 
-    @media (min-width: 450px) {
-     background-image: url("1.JPG");
-      }
-    @media (min-width: 580px) { 
-      background-image: url("2.JPG");
-      }
-    @media (min-width: 768px) { 
-      
-        background-image: url("3.JPG");
-      }
-    @media (min-width: 1024px) { 
-   
-        background-image: url("4.JPG");
-      }
-    @media (min-width: 1250px) { 
-     
-        background-image: url("5.JPG");
-      }
+    
 
     
   }
@@ -40,23 +23,23 @@ body {
 
     @media (min-width: 450px) {
         .blur-background {
-          background-image: url("1.JPG");}
+          background-image: url("pic1.JPG");}
         }
       @media (min-width: 580px) { 
         .blur-background {
-          background-image: url("2.JPG");}
+          background-image: url("pic2.JPG");}
         }
       @media (min-width: 768px) { 
         .blur-background {
-          background-image: url("3.JPG");}
+          background-image: url("pic3.JPG");}
         }
       @media (min-width: 1024px) { 
         .blur-background {
-          background-image: url("4.JPG");}
+          background-image: url("pic4.JPG");}
         }
       @media (min-width: 1250px) { 
         .blur-background {
-          background-image: url("5.JPG");}
+          background-image: url("pic5.JPG");}
         }
   
         .highlight-box {
