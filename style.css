@@ -13,6 +13,25 @@ body {
     -webkit-filter: blur(5px);
     background-size: cover;
 
+    @media (min-width: 450px) {
+     background-image: url("1.JPG");
+      }
+    @media (min-width: 580px) { 
+      background-image: url("2.JPG");
+      }
+    @media (min-width: 768px) { 
+      
+        background-image: url("3.JPG");
+      }
+    @media (min-width: 1024px) { 
+   
+        background-image: url("4.JPG");
+      }
+    @media (min-width: 1250px) { 
+     
+        background-image: url("5.JPG");
+      }
+
     
   }
 
