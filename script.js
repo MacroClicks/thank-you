@@ -38,15 +38,4 @@ fire(0.1, {
   startVelocity: 45,
 });
 
-function setResponsiveBackground() {
-  const screenWidth = window.innerWidth;
 
-  if (screenWidth >= 1250) {
-    document.querySelector(".blur-background").style.backgroundImage = "url(5.jpg)";
-  } else if (screenWidth >= 1024) {
-    document.querySelector(".blur-background").style.backgroundImage = "url(4.jpg)";
-  } // ...and so on for other screen sizes
-}
-
-window.addEventListener("resize", setResponsiveBackground);
-setResponsiveBackground(); // Call initially

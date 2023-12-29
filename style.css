@@ -12,30 +12,38 @@ body {
     filter: blur(5px);
     -webkit-filter: blur(5px);
     background-size: cover;
+    background-image: url("1.jpg");
+    background-image: url("2.jpg");
+    background-image: url("3.jpg");
+    background-image: url("4.jpg");
+    background-image: url("5.jpg");
+
+    
   }
 
 
     /* Blurred Background */
 
-    .blur-background {
-      background-image: url("1.jpg"), url("2.jpg"), url("3.jpg"), url("4.jpg"), url("5.jpg");
-      background-size: cover;
-    }
-    
     @media (min-width: 450px) {
-      .blur-background {
-        background-position: 0 0; /* Display 1.jpg first */
-      }
-    }
-    
-    @media (min-width: 580px) {
-      .blur-background {
-        background-position: -100% 0; /* Shift to display 2.jpg */
-      }
-    }
-    
-    /* ...and so on for other screen sizes */
-    
+        .blur-background {
+          background-image: url("1.jpg");}
+        }
+      @media (min-width: 580px) { 
+        .blur-background {
+          background-image: url("2.jpg");}
+        }
+      @media (min-width: 768px) { 
+        .blur-background {
+          background-image: url("3.jpg");}
+        }
+      @media (min-width: 1024px) { 
+        .blur-background {
+          background-image: url("4.jpg");}
+        }
+      @media (min-width: 1250px) { 
+        .blur-background {
+          background-image: url("5.jpg");}
+        }
   
         .highlight-box {
             position: absolute;
