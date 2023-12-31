@@ -38,7 +38,9 @@ fire(0.1, {
   startVelocity: 45,
 });
 
-window.addEventListener('resize', function() {
+
+function applyBlurredBackground() {
+window.addEventListener('resize', applyBlurredBackground);
   const backgroundElement = document.querySelector('.blur-background');
   const width = window.innerWidth;
 
@@ -57,7 +59,10 @@ window.addEventListener('resize', function() {
   }
 
   backgroundElement.style.backgroundImage = `url(${imagePath})`;
-});
+  });
+// Apply on initial load
+applyBlurredBackground();
+
 
 
 
